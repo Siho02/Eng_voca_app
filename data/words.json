@@ -1,0 +1,14 @@
+[
+  {
+    "word": "apple",
+    "meaning": [
+      "사과"
+    ],
+    "example": "Apple are usually red",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  }
+]
