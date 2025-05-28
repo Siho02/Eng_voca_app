@@ -1,0 +1,5 @@
+# 모든 CSV 파일 무시
+*.csv
+
+# 단, words.json은 추적 유지
+!data/words.json

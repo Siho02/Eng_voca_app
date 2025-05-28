@@ -10,5 +10,134 @@
     "last_reviewed": null,
     "mode": "objective",
     "next_review": null
+  },
+  {
+    "word": "book",
+    "meaning": [
+      "책"
+    ],
+    "example": "I read a book yesterday.",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "computer",
+    "meaning": [
+      "컴퓨터"
+    ],
+    "example": "He bought a new computer.",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "adapt",
+    "meaning": [
+      "개조하다",
+      "조화시키다",
+      "적응하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "paleobotany",
+    "meaning": [
+      "고식물학"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "rigorous",
+    "meaning": [
+      "철저한",
+      "엄격한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "excavate",
+    "meaning": [
+      "~을 발굴하다",
+      "~을 출토하다",
+      "~을 파다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "dispute",
+    "meaning": [
+      "분쟁;분규;논란;논쟁",
+      "~을 반박하다",
+      "이의를 제기하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "opt in",
+    "meaning": [
+      "(~에) 참여하기로 하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "assimilate",
+    "meaning": [
+      "~을 완전히 이해하다",
+      "동화되다",
+      "~을 흡수하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "word": "trace back",
+    "meaning": [
+      "거슬러 올라가다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
   }
 ]

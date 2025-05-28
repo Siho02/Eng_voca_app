@@ -49,8 +49,39 @@ class RegisterManualScreen(tk.Frame):
 
         # 3. 뜻을 리스트로 분리 (쉼표 기준)
         meanings = [m.strip() for m in meaning_raw.split(",") if m.strip()]
+        word_lower = word.lower()
 
-        # 4. 저장할 딕셔너리 구성
+        # 4. 기존 데이터 불러오기 (파일 없으면 빈 리스트)
+        if os.path.exists(DATA_PATH):
+            with open(DATA_PATH, 'r', encoding='utf-8') as f:
+                try: 
+                    data = json.load(f)
+                except json.JSONDecodeError:
+                    data = []
+        else:
+            data = []
+
+        # 5. 중복 단어인지 검사 필요성이 있음!
+        for entry in data:
+            if entry["word"].strip().lower() == word_lower:
+                updated = False
+                for m in meanings:
+                    if m not in entry["meaning"]:
+                        entry["meaning"].append(m)
+                        updated = True
+                if not entry.get("example") and example:
+                    entry["example"] = example
+                    updated = True
+                if updated:
+                    messagebox.showinfo("업데이트", f"'{word}' 단어의 뜻이 추가되었습니다.")
+                else:
+                    messagebox.showwarning("중복", f"'{word}'는 이미 등록되어 있습니다.")
+                # 병합 완료 후 저장
+                with open(DATA_PATH, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
+                return
+            
+        # 6. 저장할 딕셔너리 구성
         new_entry = {
             "word": word,
             "meaning": meanings,
@@ -62,20 +93,10 @@ class RegisterManualScreen(tk.Frame):
             "next_review": None
         }
 
-        # 5. 기존 데이터 불러오기 (파일 없으면 빈 리스트)
-        if os.path.exists(DATA_PATH):
-            with open(DATA_PATH, 'r', encoding='utf-8') as f:
-                try: 
-                    data = json.load(f)
-                except json.JSONDecodeError:
-                    data = []
-        else:
-            data = []
-
-        # 6. 리스트에 새 단어 추가
+        # 7. 리스트에 새 단어 추가
         data.append(new_entry)        
 
-        # 7. 다시 파일로 저장 (json.dump)
+        # 8. 다시 파일로 저장 (json.dump)
         with open(DATA_PATH, 'w', encoding='utf-8') as f:
             f = json.dump(data, f, ensure_ascii=False, indent=2)
 
