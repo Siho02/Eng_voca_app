@@ -4,6 +4,7 @@ from ui.home_screen import HomeScreen
 from ui.register_screen import RegisterScreen
 from ui.register_manual import RegisterManualScreen
 from ui.register_csv import RegisterCSVScreen
+from ui.word_list import WordListScreen
 
 class MyVocaApp(tk.Tk):
     def __init__(self):
@@ -19,6 +20,7 @@ class MyVocaApp(tk.Tk):
 
         self.container = tk.Frame(self.container_frame)
         self.container.pack(fill="both", expand=True)
+
         self.container.grid_rowconfigure(0, weight=1)
         self.container.grid_columnconfigure(0, weight=1)
         
@@ -37,6 +39,7 @@ class MyVocaApp(tk.Tk):
         self.screens["register"] = RegisterScreen(self.container, self)
         self.screens["manual"] = RegisterManualScreen(self.container, self)
         self.screens["csv"] = RegisterCSVScreen(self.container, self)
+        self.screens["word_list"] = WordListScreen(self.container, self)
 
         for screen in self.screens.values():
             screen.grid(row = 0, column = 0, sticky = 'nsew') 
