@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 import os
+from datetime import datetime
 
 DATA_PATH = "data/words.json"
 
@@ -83,6 +84,7 @@ class RegisterManualScreen(tk.Frame):
             
         # 6. 저장할 딕셔너리 구성
         new_entry = {
+            "created_at" : datetime.now().strftime("%Y-%m-%d %H:%M"),
             "word": word,
             "meaning": meanings,
             "example": example,

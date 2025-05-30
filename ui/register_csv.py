@@ -2,6 +2,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import csv, json, os, shutil
+from datetime import datetime
 
 DATA_PATH = "data/words.json"
 TEMPLATE_PATH = "data/sample_template.csv"
@@ -103,6 +104,7 @@ class RegisterCSVScreen(tk.Frame):
 
                     # 새로운 단어로 추가 
                     new_entry = {
+                        "created_at" : datetime.now().strftime("%Y-%m-%d %H:%M"),
                         'word' : word,
                         'meaning': meanings,
                         "example": example,

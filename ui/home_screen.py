@@ -20,5 +20,5 @@ class HomeScreen(tk.Frame):
         record_frame.pack(pady=20)
         record_frame.pack_propagate(False)
 
-        tk.Label(record_frame, text="📊 학습 기록 요약 (예시)", bg="lightgray", font=("Arial", 12)).pack(pady=10)
+        tk.Label(record_frame, text="📊 학습 기록 요약(5일 이상 공부하면 보여요)", bg="lightgray", font=("Arial", 12)).pack(pady=10)
         tk.Label(record_frame, text="오늘 공부한 단어: 5개\n복습한 단어: 3개\n연속 학습일: 2일", bg="lightgray").pack()

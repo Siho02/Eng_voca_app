@@ -2,7 +2,8 @@ import tkinter as tk
 import random
 import json
 import os
-
+import time 
+from datetime import datetime, timedelta
 DATA_PATH = "data/words.json"
 
 class StudyScreen(tk.Frame):
@@ -81,11 +82,26 @@ class StudyScreen(tk.Frame):
 
     def check_answer(self, selected_index):
         selected_text = self.option_buttons[selected_index].cget("text")
+        now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
+        print(now_str)
         if selected_text == self.current_answer:
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
+            self.quiz_word['correct_cnt'] += 1
         else:
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
+            self.quiz_word['incorrect_cnt'] += 1
+        
+        # last_reivews 
+        self.quiz_word['last_reviewed'] = now_str
 
+        # next_review
+        correct = self.quiz_word['correct_cnt']
+        incorrect = self.quiz_word['incorrect_cnt']
+        
+
+        with open(DATA_PATH, 'w', encoding='utf-8') as f:
+            json.dump(self.word_data, f, ensure_ascii=False, indent=2)
+        
         for btn in self.option_buttons:
             btn.config(state="disabled")
 
