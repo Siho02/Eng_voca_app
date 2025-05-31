@@ -4,6 +4,8 @@ import json
 import os
 import time 
 from datetime import datetime, timedelta
+import math
+
 DATA_PATH = "data/words.json"
 
 class StudyScreen(tk.Frame):
@@ -52,6 +54,24 @@ class StudyScreen(tk.Frame):
                     self.word_data = []
         else:
             self.word_data = []
+    def calculate_after_min(cor, inc):
+        total = cor + inc
+        
+        #처음 복습은 무조건 3시간 후에
+        if total==0: return 180
+
+        acc = cor / total
+        log_factor = math.log(total+1)
+        acc_adj = (2*acc) - 1 #정답률이 0.5보다 작으면 음수가 나옴
+        
+        after_min = 180 * log_factor * (1 + acc_adj)
+
+        #15번 이상 복습하면 복습 주기를 좀 더 길게 해줍니다.
+        if total >= 15:
+            after_min *= 1.2
+
+        after_min = max(3, min(after_min, 43200))
+        return after_min
 
     def next_question(self):
         self.feedback_label.config(text='') #??
@@ -97,7 +117,7 @@ class StudyScreen(tk.Frame):
         # next_review
         correct = self.quiz_word['correct_cnt']
         incorrect = self.quiz_word['incorrect_cnt']
-        
+
 
         with open(DATA_PATH, 'w', encoding='utf-8') as f:
             json.dump(self.word_data, f, ensure_ascii=False, indent=2)

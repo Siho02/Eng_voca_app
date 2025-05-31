@@ -27,5 +27,63 @@
     "last_reviewed": null,
     "mode": "objective",
     "next_review": null
+  },
+  {
+    "created_at": "2025-05-31 15:18",
+    "word": "demise",
+    "meaning": [
+      "종말",
+      "죽음",
+      "사망"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "created_at": "2025-05-31 15:18",
+    "word": "scavenge",
+    "meaning": [
+      "~를 뒤지다",
+      "(죽은 고기)를 먹다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "created_at": "2025-05-31 15:19",
+    "word": "refine",
+    "meaning": [
+      "~을 정제하다",
+      "~을 제련하다",
+      "~을 개선하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
+  },
+  {
+    "created_at": "2025-05-31 15:19",
+    "word": "conifer",
+    "meaning": [
+      "침엽수",
+      "구과식물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": null
   }
 ]
