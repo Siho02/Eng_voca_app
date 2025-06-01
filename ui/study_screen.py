@@ -54,9 +54,10 @@ class StudyScreen(tk.Frame):
                     self.word_data = []
         else:
             self.word_data = []
-    def calculate_after_min(cor, inc):
-        total = cor + inc
-        
+    
+    def calculate_after_min(self, cor, inc):
+        total = cor + inc 
+
         #처음 복습은 무조건 3시간 후에
         if total==0: return 180
 
@@ -74,18 +75,31 @@ class StudyScreen(tk.Frame):
         return after_min
 
     def next_question(self):
-        self.feedback_label.config(text='') #??
-        if len(self.word_data) < 4:
-            self.question_label.config(text='최소 4개 이상의 단어가 있어야 퀴즈를 시작할 수 있어요.')
+        self.feedback_label.config(text="")
+        now = datetime.now() 
+
+        # 복습 가능한 단어 필터링
+        reviewable_words = [] 
+        for entry in self.word_data:
+            next_review_str = entry.get('next_review')
+            if next_review_str:
+                next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
+                if now >= next_review_dt:
+                    reviewable_words.append(entry)
+        
+        # 복습할 단어가 없으면 안내
+        if len(reviewable_words) < 4:
+            self.question_label.config(text='🥳복습을 모두 마쳤습니다.')
             for btn in self.option_buttons:
                 btn.config(text='', state='disabled')
             return 
 
-        self.quiz_word = random.choice(self.word_data)
+        #문제 단어 선택
+        self.quiz_word = random.choice(reviewable_words)
         correct_meaning = random.choice(self.quiz_word['meaning'])
         self.current_answer = correct_meaning
 
-        #오답 추출
+        #오답 보기 추출 : 단어 전체에서 가져옴옴
         other_meanings= []
         for entry in self.word_data:
             if entry != self.quiz_word:
@@ -103,7 +117,7 @@ class StudyScreen(tk.Frame):
     def check_answer(self, selected_index):
         selected_text = self.option_buttons[selected_index].cget("text")
         now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
-        print(now_str)
+        
         if selected_text == self.current_answer:
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
             self.quiz_word['correct_cnt'] += 1
@@ -117,7 +131,10 @@ class StudyScreen(tk.Frame):
         # next_review
         correct = self.quiz_word['correct_cnt']
         incorrect = self.quiz_word['incorrect_cnt']
+        after_min = self.calculate_after_min(correct, incorrect)
 
+        next_review_dt = datetime.now() + timedelta(minutes=after_min)
+        self.quiz_word['next_review'] = next_review_dt.strftime("%Y-%m-%d %H:%M")
 
         with open(DATA_PATH, 'w', encoding='utf-8') as f:
             json.dump(self.word_data, f, ensure_ascii=False, indent=2)

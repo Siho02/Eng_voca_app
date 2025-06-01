@@ -6,11 +6,11 @@
       "기억하기 쉬운"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-01 17:53",
     "mode": "objective",
-    "next_review": null
+    "next_review": "2025-06-01 22:02"
   },
   {
     "created_at": "2025-05-30 21:26",
@@ -22,11 +22,11 @@
       "~를 엉망진창으로 만들다(us)"
     ],
     "example": "",
-    "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "correct_cnt": 1,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-01 17:53",
     "mode": "objective",
-    "next_review": null
+    "next_review": "2025-06-01 21:11"
   },
   {
     "created_at": "2025-05-31 15:18",
@@ -70,7 +70,7 @@
     "incorrect_cnt": 0,
     "last_reviewed": null,
     "mode": "objective",
-    "next_review": null
+    "next_review": "2025-05-31 15:19"
   },
   {
     "created_at": "2025-05-31 15:19",
@@ -80,10 +80,67 @@
       "구과식물"
     ],
     "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-01 17:47",
+    "mode": "objective",
+    "next_review": "2025-06-01 21:56"
+  },
+  {
+    "created_at": "2025-06-01 17:48",
+    "word": "concede",
+    "meaning": [
+      "인정하다",
+      "수긍하다",
+      "내주다",
+      "허락하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-01 17:53",
+    "mode": "objective",
+    "next_review": "2025-06-01 22:02"
+  },
+  {
+    "created_at": "2025-06-01 18:05",
+    "word": "viable",
+    "meaning": [
+      "실행가능한",
+      "성공할 수 있는",
+      "독자 생존 가능한"
+    ],
+    "example": "",
     "correct_cnt": 0,
     "incorrect_cnt": 0,
     "last_reviewed": null,
     "mode": "objective",
-    "next_review": null
+    "next_review": "2025-06-01 21:05"
+  },
+  {
+    "created_at": "2025-06-01 18:07",
+    "word": "feasible",
+    "meaning": [
+      "실현 가능한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-01 21:07"
+  },
+  {
+    "created_at": "2025-06-01 18:07",
+    "word": "forage",
+    "meaning": [
+      "먹이를 찾다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-01 21:07"
   }
 ]

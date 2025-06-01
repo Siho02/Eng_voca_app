@@ -2,7 +2,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import csv, json, os, shutil
-from datetime import datetime
+from datetime import datetime, timedelta
 
 DATA_PATH = "data/words.json"
 TEMPLATE_PATH = "data/sample_template.csv"
@@ -112,7 +112,7 @@ class RegisterCSVScreen(tk.Frame):
                         "incorrect_cnt": 0,
                         "last_reviewed": None,
                         "mode": "objective",
-                        "next_review": None
+                        "next_review": (datetime.now() + timedelta(minutes=180)).strftime("%Y-%m-%d %H:%M")  # ✅ 3시간 후로 설정!
                     }
                     data.append(new_entry)
                     added_count += 1

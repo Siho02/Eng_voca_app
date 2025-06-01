@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 DATA_PATH = "data/words.json"
 
@@ -92,7 +92,7 @@ class RegisterManualScreen(tk.Frame):
             "incorrect_cnt": 0,
             "last_reviewed": None,
             "mode": "objective",
-            "next_review": None
+            "next_review": (datetime.now() + timedelta(minutes=180)).strftime("%Y-%m-%d %H:%M")  # ✅ 3시간 후로 설정!
         }
 
         # 7. 리스트에 새 단어 추가
