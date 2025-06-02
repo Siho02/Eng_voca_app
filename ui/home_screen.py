@@ -1,4 +1,35 @@
 import tkinter as tk
+from datetime import datetime, timedelta
+import os 
+import json
+
+DATA_PATH = "data/words.json"
+
+def calculate_study_summary(words_data):
+    today = datetime.now().date()  
+    studied_today = 0
+    reviewed_today = 0
+    reviewed_dates = set()
+
+    for entry in words_data:
+        last_reviewed = entry.get('last_reviewed')
+        if last_reviewed:
+            reviewed_date = datetime.strptime(last_reviewed, "%Y-%m-%d %H:%M").date()
+            reviewed_dates.add(reviewed_date)
+            if reviewed_date == today:
+                studied_today += 1
+                if entry.get('correct_cnt', 0) > 0 or entry.get("incorrect_cnt", 0) > 0:
+                    reviewed_today += 1
+
+    # 연속 학습일
+    streak = 0
+    current_day = today
+    while current_day in reviewed_dates:
+        streak += 1
+        current_day -= timedelta(days=1)
+
+    return studied_today, reviewed_today, streak 
+
 
 class HomeScreen(tk.Frame):
     def __init__(self, parent, controller):
@@ -20,5 +51,27 @@ class HomeScreen(tk.Frame):
         record_frame.pack(pady=20)
         record_frame.pack_propagate(False)
 
-        tk.Label(record_frame, text="📊 학습 기록 요약(5일 이상 공부하면 보여요)", bg="lightgray", font=("Arial", 12)).pack(pady=10)
-        tk.Label(record_frame, text="오늘 공부한 단어: 5개\n복습한 단어: 3개\n연속 학습일: 2일", bg="lightgray").pack()
+        self.summary_label = tk.Label(self, text="", bg='lightgray', font = ('Arial', 12))
+        self.summary_label.pack(pady=10)
+        
+        self.update_summary()
+    
+    def update_summary(self):
+        if os.path.exists(DATA_PATH):
+            with open(DATA_PATH, "r", encoding="utf-8") as f:
+                try:
+                    word_data = json.load(f)
+                except json.JSONDecodeError:
+                    word_data = []
+        else:
+            word_data = []
+
+        studied, reviewed, streak = calculate_study_summary(word_data)
+        if streak >= 5:
+            self.summary_label.config(
+                text=f"오늘 공부한 단어: {studied}개\n복습한 단어: {reviewed}개\n연속 학습일: {streak}일"
+            )
+        else:
+            self.summary_label.config(
+                text="5일 이상 공부하면 학습 기록이 표시됩니다."
+            ) 
