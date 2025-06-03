@@ -66,18 +66,19 @@
       "~을 개선하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-03 17:25",
     "mode": "objective",
-    "next_review": "2025-05-31 15:19"
+    "next_review": "2025-06-03 21:35"
   },
   {
     "created_at": "2025-05-31 15:19",
     "word": "conifer",
     "meaning": [
       "침엽수",
-      "구과식물"
+      "구과식물",
+      "구과 식물"
     ],
     "example": "",
     "correct_cnt": 1,
@@ -93,7 +94,9 @@
       "인정하다",
       "수긍하다",
       "내주다",
-      "허락하다"
+      "허락하다",
+      "인정[수긍]하다",
+      "내주다[허락하다]"
     ],
     "example": "",
     "correct_cnt": 2,
@@ -108,14 +111,15 @@
     "meaning": [
       "실행가능한",
       "성공할 수 있는",
-      "독자 생존 가능한"
+      "독자 생존 가능한",
+      "실행 가능한"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-03 17:33",
     "mode": "objective",
-    "next_review": "2025-06-01 21:05"
+    "next_review": "2025-06-03 21:43"
   },
   {
     "created_at": "2025-06-01 18:07",
@@ -124,11 +128,11 @@
       "실현 가능한"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-02 20:18",
+    "last_reviewed": "2025-06-03 17:39",
     "mode": "objective",
-    "next_review": "2025-06-03 00:28"
+    "next_review": "2025-06-04 00:15"
   },
   {
     "created_at": "2025-06-01 18:07",
@@ -142,5 +146,3593 @@
     "last_reviewed": "2025-06-02 20:19",
     "mode": "objective",
     "next_review": "2025-06-03 00:28"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "catchy",
+    "meaning": [
+      "기억하기 쉬운"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pale(o)-",
+    "meaning": [
+      "고(古)",
+      "구(舊)"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "paleoclimate",
+    "meaning": [
+      "고기후"
+    ],
+    "example": "~을 못하게 하다\"",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "archaeology",
+    "meaning": [
+      "고고학"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "paleobotany",
+    "meaning": [
+      "고식물학"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "paleontologist",
+    "meaning": [
+      "고생물학자"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "adept at",
+    "meaning": [
+      "~에 능숙한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "willow",
+    "meaning": [
+      "버드나무"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "megafauna",
+    "meaning": [
+      "거대 동물(맘모스 등)"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "nutrient",
+    "meaning": [
+      "영양소",
+      "영양분"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "hinder",
+    "meaning": [
+      "~을 방해하다",
+      "~을 저해하다",
+      "~을 못하게 하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "impede",
+    "meaning": [
+      "~을 지연시키다",
+      "~을 방해하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "terrain",
+    "meaning": [
+      "지형",
+      "지역"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "glacier",
+    "meaning": [
+      "빙하"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "glaciation",
+    "meaning": [
+      "빙하작용",
+      "빙결"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "conscious",
+    "meaning": [
+      "의식하는",
+      "의식적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "subconscious",
+    "meaning": [
+      "잠재의식적인",
+      "잠재 의식"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "opt in A",
+    "meaning": [
+      "A에 참여하기로 하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:22",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "opt out of A",
+    "meaning": [
+      "A에 참여하지 않기로 하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "opt",
+    "meaning": [
+      "택하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:22",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "opt against",
+    "meaning": [
+      "~을 선택하지 않다",
+      "~에 반대하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "intrigue",
+    "meaning": [
+      "~에게 강한 흥미를 불러 일으키다",
+      "모의하다",
+      "음모를 꾸미다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "puruse",
+    "meaning": [
+      "~을 숙독하다",
+      "~을 정독하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "linger",
+    "meaning": [
+      "남다[계속되다]",
+      "오래 머물다",
+      "오랜 시간을 보내다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "envisage",
+    "meaning": [
+      "~을 예상하다",
+      "~을 상상하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "apparel",
+    "meaning": [
+      "의류",
+      "의복"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "garment",
+    "meaning": [
+      "의복",
+      "옷"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "with the utmost effort",
+    "meaning": [
+      "최대로 노력하여"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "utmost",
+    "meaning": [
+      "최고의",
+      "극도의",
+      "최대한도"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rudimentary",
+    "meaning": [
+      "가장 기본적인",
+      "제대로 발달하지 못한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rudiment",
+    "meaning": [
+      "기본",
+      "기초",
+      "초보",
+      "시작"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "corpus callosum",
+    "meaning": [
+      "뇌량"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "commissurotomy",
+    "meaning": [
+      "교련 절개술"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "sever",
+    "meaning": [
+      "~을 자르다[절단하다]",
+      "잘라내다",
+      "~을 끊다[단절하다]"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "preliminary",
+    "meaning": [
+      "예비의",
+      "예비행위",
+      "서두",
+      "예선전"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "anaesthetize",
+    "meaning": [
+      "~을 마취시키다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "anaesthetic",
+    "meaning": [
+      "마취약",
+      "마취제가 든"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "inhibit",
+    "meaning": [
+      "~을 억제[저해]하다",
+      "~을 못하게 하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "temporal lobe",
+    "meaning": [
+      "측두엽"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "disrupt",
+    "meaning": [
+      "~을 방해하다",
+      "~에 지장을 주다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "subsequently",
+    "meaning": [
+      "그 뒤에",
+      "나중에"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "articulate",
+    "meaning": [
+      "~을 분명히 표현하다",
+      "~을 설명하다",
+      "또렷이 말하다",
+      "연계되다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "autopsy",
+    "meaning": [
+      "부검",
+      "검시"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "post-mortem",
+    "meaning": [
+      "부검",
+      "검시"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "diagonosis",
+    "meaning": [
+      "진단"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "frontal lobe",
+    "meaning": [
+      "전두엽"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "lesion",
+    "meaning": [
+      "장애",
+      "손상"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "be put forth by",
+    "meaning": [
+      "~에 의해 제시되다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:42"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "lateralization",
+    "meaning": [
+      "대뇌 좌우 기능 분화"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "have no bearing on",
+    "meaning": [
+      "~와 관계가 없다",
+      "~와 관계가 약간 있다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "point out",
+    "meaning": [
+      "가리키다",
+      "지적하다",
+      "주목하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "indicate",
+    "meaning": [
+      "지적하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "draw attention to",
+    "meaning": [
+      "주목하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "prevalence",
+    "meaning": [
+      "우세함",
+      "널리퍼짐"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "concur",
+    "meaning": [
+      "동의하다",
+      "의견 일치를 보다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "concur in",
+    "meaning": [
+      "~에 동의하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "conservatism",
+    "meaning": [
+      "보수성",
+      "보수주의"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rebellious",
+    "meaning": [
+      "반항적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rebel",
+    "meaning": [
+      "반역자",
+      "반대자",
+      "반란을 일으키다",
+      "저항하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "dispute",
+    "meaning": [
+      "분쟁[분규]",
+      "논란[논쟁]",
+      "~을 반박하다",
+      "이의를 제기하다",
+      "~에 대해 분쟁[논란]을 벌이다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pivotal",
+    "meaning": [
+      "중심이 되는",
+      "중추적인",
+      "중요한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "demographic",
+    "meaning": [
+      "인구 통계적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rigorous",
+    "meaning": [
+      "철저한",
+      "엄격한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "assertive",
+    "meaning": [
+      "적극적인",
+      "확신에 찬"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:44"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "assert",
+    "meaning": [
+      "(사실임을 강하게)주장하다",
+      "~을 확고히 하다",
+      "~이 발휘되기 시작하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "assert oneself",
+    "meaning": [
+      "자기 주장을 하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "conscientiousness",
+    "meaning": [
+      "성실성"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "conscientious",
+    "meaning": [
+      "양심적인",
+      "성실한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "conscience",
+    "meaning": [
+      "양심"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "extroversion",
+    "meaning": [
+      "외향성"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "neuroticism",
+    "meaning": [
+      "신경증적 성질",
+      "신경질"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "agreeableness",
+    "meaning": [
+      "기분 좋음",
+      "마음에 듦"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "agreeable",
+    "meaning": [
+      "기분 좋은",
+      "쾌활한",
+      "선뜻 동의하는",
+      "알맞은",
+      "받아들일 수 있는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "controversial",
+    "meaning": [
+      "논란이 많은"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "end up",
+    "meaning": [
+      "결국 처하게 되다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "succumb to",
+    "meaning": [
+      "~에 굴복하다",
+      "~에 빠지다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "succumb",
+    "meaning": [
+      "굴복하다",
+      "무릎을 꿇다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pampered",
+    "meaning": [
+      "방자한",
+      "제멋대로 하는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pamper oneself",
+    "meaning": [
+      "제멋대로 처신하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pamper",
+    "meaning": [
+      "~을 애지중지하다",
+      "소중히 보살피다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "cosset",
+    "meaning": [
+      "소중히 보살피다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "diminish",
+    "meaning": [
+      "줄어들다",
+      "약해지다",
+      "줄이다",
+      "약화시키다",
+      "~을 깍아내리다[폄하하다]"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "belittle",
+    "meaning": [
+      "얕보다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "profound",
+    "meaning": [
+      "엄청난",
+      "깊은",
+      "심오한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "flourish",
+    "meaning": [
+      "번창하다",
+      "잘 자라다",
+      "~을 흔들어대다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "thrive",
+    "meaning": [
+      "번청하다",
+      "잘 자라다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "prosper",
+    "meaning": [
+      "번영[번성]하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "cite",
+    "meaning": [
+      "(이유)를 들다[끌어내다]",
+      "~을 인용하다",
+      "~을 (법정에) 소환하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "compromise",
+    "meaning": [
+      "타협하다",
+      "굽히다",
+      "양보하다",
+      "~을 위태롭게하다",
+      "타협",
+      "절충"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "meet the needs of",
+    "meaning": [
+      "~의 필요에 응하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "timber",
+    "meaning": [
+      "목재",
+      "대들보"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "trace back",
+    "meaning": [
+      "거슬러 올라가다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "(US) second floor",
+    "meaning": [
+      "2층"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "(UK) first floor",
+    "meaning": [
+      "2층"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "(US) first floor",
+    "meaning": [
+      "1층"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "(UK) ground floor",
+    "meaning": [
+      "1층"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "curriculum vitae(CV)",
+    "meaning": [
+      "이력서"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "impair",
+    "meaning": [
+      "~을 손상시키다",
+      "~을 악화시키다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "catastrophe",
+    "meaning": [
+      "참사",
+      "재앙"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "handover",
+    "meaning": [
+      "이양[양도]",
+      "제출[인계]"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "hand over",
+    "meaning": [
+      "~을 이양하다",
+      "~을 인도하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "cargo",
+    "meaning": [
+      "화물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pessimistic",
+    "meaning": [
+      "비관적인"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "optimistic",
+    "meaning": [
+      "낙관적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "erosion",
+    "meaning": [
+      "부식",
+      "침식",
+      "짓무름"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "excavatee",
+    "meaning": [
+      "~을 발굴하다",
+      "~을 출토하다",
+      "~(구멍 등)을 파다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:39",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:48"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rite",
+    "meaning": [
+      "의식",
+      "의례"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "relic",
+    "meaning": [
+      "유물",
+      "유적"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "assimilate",
+    "meaning": [
+      "~을 완전히 이해하다",
+      "동화되다[동화시키다]",
+      "~을 흡수하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-03 17:39",
+    "mode": "objective",
+    "next_review": "2025-06-03 17:42"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "sediment",
+    "meaning": [
+      "침전물",
+      "앙금",
+      "퇴적물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rectify",
+    "meaning": [
+      "~을 바로잡다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "correct",
+    "meaning": [
+      "~을 바로잡다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "aboriginal",
+    "meaning": [
+      "토착의",
+      "원주민의"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "incompatible",
+    "meaning": [
+      "양립할 수 없는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "excrete",
+    "meaning": [
+      "배설[분비]하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "ingest",
+    "meaning": [
+      "~을 삼키다[먹다]"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "physicist",
+    "meaning": [
+      "물리학자"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "physician",
+    "meaning": [
+      "의사",
+      "내과의"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "doze",
+    "meaning": [
+      "깜빡 잠이들다",
+      "졸다",
+      "낮잠"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "autism",
+    "meaning": [
+      "자폐증"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "germinate",
+    "meaning": [
+      "싹트다",
+      "시작되다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "echinoderm",
+    "meaning": [
+      "극피동물(불가사리-성게 등)"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "curustacean",
+    "meaning": [
+      "갑각류"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "mollusk",
+    "meaning": [
+      "연체 동물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pinniped",
+    "meaning": [
+      "기각류(물개 등)"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "catacean",
+    "meaning": [
+      "고래목",
+      "고래목의"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "primate",
+    "meaning": [
+      "영장류",
+      "대주교"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "omnivore",
+    "meaning": [
+      "잡식 동물"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "insectivore",
+    "meaning": [
+      "식충 동물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "herbivore",
+    "meaning": [
+      "초식 동물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "carnivore",
+    "meaning": [
+      "육식 동물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "amphibian",
+    "meaning": [
+      "양서류"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rodent",
+    "meaning": [
+      "설치류"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "reptile",
+    "meaning": [
+      "파충률"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "mammal",
+    "meaning": [
+      "포유류"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "autocracy",
+    "meaning": [
+      "독재 정치",
+      "전제 정치"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "fertiliser",
+    "meaning": [
+      "비료"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 17:27"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "fertilize",
+    "meaning": [
+      "~를 수정시키다",
+      "비료를 주다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "colonize",
+    "meaning": [
+      "~를 식민지로 만들다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "colonisation",
+    "meaning": [
+      "식민지화"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "adverse",
+    "meaning": [
+      "부정적인",
+      "불리한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "consolidate",
+    "meaning": [
+      "굳히다[강화하다]",
+      "통합하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "manipulate",
+    "meaning": [
+      "~을 조종하다",
+      "~을 다루다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "facilitate",
+    "meaning": [
+      "~를 가능하게 하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "gross somebody out",
+    "meaning": [
+      "~를 역겹게 하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "gross",
+    "meaning": [
+      "총-",
+      "중대한",
+      "역겨운"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pollute",
+    "meaning": [
+      "~를 오염시키다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pollution",
+    "meaning": [
+      "오염",
+      "공해",
+      "오염 물질"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "contamination",
+    "meaning": [
+      "(불순물에 의한) 오염"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "contaminate",
+    "meaning": [
+      "~을 오염시키다",
+      "~에 악영향을 주다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:44"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "implausible",
+    "meaning": [
+      "믿기 어려운",
+      "타당해 보이지 않는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "plausible",
+    "meaning": [
+      "이치에 맞는",
+      "그럴듯한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "implication",
+    "meaning": [
+      "영향[결과]",
+      "함축",
+      "암시",
+      "연루"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "sensual",
+    "meaning": [
+      "감각적인",
+      "관능적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "sensuous",
+    "meaning": [
+      "오감을 만족시키는",
+      "감각적인",
+      "육감적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "insensible",
+    "meaning": [
+      "무감각한",
+      "의식하지 못하는",
+      "의식불명의"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "sensible",
+    "meaning": [
+      "분별[양식] 있는",
+      "합리적인",
+      "실용적인",
+      "~을 의식하고 있는"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "comprehensive",
+    "meaning": [
+      "포괄적인",
+      "종합 중등학교"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "distract",
+    "meaning": [
+      "~을 집중이 안되게 하다",
+      "(주의를) 딴데로 돌리다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "neglect",
+    "meaning": [
+      "방치하다",
+      "소홀히 하다",
+      "간과하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "exclude",
+    "meaning": [
+      "제외하다",
+      "배제하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "omit",
+    "meaning": [
+      "생략하다",
+      "누락하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "leave out",
+    "meaning": [
+      "빼다",
+      "생략하다",
+      "무시하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:36",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:46"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rationale",
+    "meaning": [
+      "이유",
+      "근거"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "contradictory",
+    "meaning": [
+      "모순적인"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "initiative",
+    "meaning": [
+      "계획",
+      "진취성",
+      "결단력",
+      "주도권"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "go into",
+    "meaning": [
+      "~안으로 들어가다",
+      "~에 종사하다",
+      "논의하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "chronological order",
+    "meaning": [
+      "연대순"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "carry out",
+    "meaning": [
+      "~을 수행하다",
+      "~을 완수하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "interdisciplinary",
+    "meaning": [
+      "학계 간"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "discipline",
+    "meaning": [
+      "규율[훈육]",
+      "절제력",
+      "~을 징계[훈육]하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "discipline oneself",
+    "meaning": [
+      "스스로를 단련하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "draw back",
+    "meaning": [
+      "~에서 물러나다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "drawback",
+    "meaning": [
+      "문제점",
+      "결점"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "periodical",
+    "meaning": [
+      "정기 간행물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "handout",
+    "meaning": [
+      "유인물"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "hand out",
+    "meaning": [
+      "나눠주다",
+      "배포하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "hand A into B",
+    "meaning": [
+      "A에게 B를 건네주다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "plagiarism",
+    "meaning": [
+      "표절"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "plagiarise",
+    "meaning": [
+      "표절하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "bibliography",
+    "meaning": [
+      "참고문헌",
+      "서지학"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "findings",
+    "meaning": [
+      "연구 결과"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "thesis",
+    "meaning": [
+      "(UK)박사",
+      "(US)석사"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "faculty",
+    "meaning": [
+      "능력",
+      "학부",
+      "교수단"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "fellowship",
+    "meaning": [
+      "유대",
+      "연구비",
+      "장학금"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "grant",
+    "meaning": [
+      "~을 승인[허락]하다",
+      "보조금"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "dean",
+    "meaning": [
+      "주임 사제",
+      "학과장"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "gemstone",
+    "meaning": [
+      "원석"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "adorn with",
+    "meaning": [
+      "~으로 꾸미다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "adapt",
+    "meaning": [
+      "~을 맞추다[조정하다]",
+      "적응하다",
+      "~을 개작[각색]하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "adopt",
+    "meaning": [
+      "입양하다",
+      "~을 채택[차용]하다",
+      "~을 선정하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "limb",
+    "meaning": [
+      "팔[다리]",
+      "날개",
+      "나뭇가지"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "statuette",
+    "meaning": [
+      "작은 조감품"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "figurine",
+    "meaning": [
+      "조각 인형"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "intricate",
+    "meaning": [
+      "복잡한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "bronze casting",
+    "meaning": [
+      "청동 주물"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "be renowend for",
+    "meaning": [
+      "~로 잘 알려져 있다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "serve as",
+    "meaning": [
+      "~의 역할을 하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "indigenous",
+    "meaning": [
+      "원산의[토착의]"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "native",
+    "meaning": [
+      "원산의[토착의]"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "fibre",
+    "meaning": [
+      "섬유"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "fiber",
+    "meaning": [
+      "섬유"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "prevalent",
+    "meaning": [
+      "일반적인",
+      "널리 퍼져 있는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "ethnic",
+    "meaning": [
+      "민족[종족]의",
+      "전통적인",
+      "소수민족출신자"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "regimen",
+    "meaning": [
+      "운동 및 식이요법"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "astound",
+    "meaning": [
+      "~을 경악시키다",
+      "큰 충격을 주다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "electrolyte",
+    "meaning": [
+      "전해질"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "tailor",
+    "meaning": [
+      "제단사",
+      "양복장이",
+      "맞추다[조정하다]"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "account for",
+    "meaning": [
+      "~을 해명하다",
+      "~을 설명하다",
+      "(비율을) 차지하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:39",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:48"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "refer to",
+    "meaning": [
+      "~에 돌리다",
+      "회부하다",
+      "~에 적용되다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "the other way round",
+    "meaning": [
+      "반대로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look the other way",
+    "meaning": [
+      "못 본 척하다",
+      "모르는 척 하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:33"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "take a look (at)",
+    "meaning": [
+      "(~을) (한번) 보다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look up to",
+    "meaning": [
+      "~을 존경하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "respect",
+    "meaning": [
+      "~을 존경하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look out for",
+    "meaning": [
+      "~을 찾다",
+      "~을 지키다",
+      "~을 조심[주의]하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "watch for",
+    "meaning": [
+      "~을 찾다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look up",
+    "meaning": [
+      "(상황이) 나아지다",
+      "(사전 등에서) 찾아보다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "inquire into a matter",
+    "meaning": [
+      "사건을 조사하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:23",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:32"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "inquire into",
+    "meaning": [
+      "~을 조사하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look into",
+    "meaning": [
+      "~을 조사하다",
+      "~을 주의깊게 살피다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "investigate",
+    "meaning": [
+      "~을 조사하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look forward to",
+    "meaning": [
+      "~을 기대하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look for",
+    "meaning": [
+      "찾다",
+      "구하다",
+      "기대하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look down on A",
+    "meaning": [
+      "A를 낮춰보다[얕보다]"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "reflect on",
+    "meaning": [
+      "~을 반성하다",
+      "되돌아보다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:25",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look back (on something)",
+    "meaning": [
+      "되돌아보다",
+      "회상하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look at",
+    "meaning": [
+      "~을 살펴보다[검토하다]",
+      "~에 대해 생각[검토]하다",
+      "~을 보다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look around",
+    "meaning": [
+      "둘러보다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look around for",
+    "meaning": [
+      "~을 찾아다니다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 17:36"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look ahead",
+    "meaning": [
+      "앞을 내다보다",
+      "미래를 대비하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "look after",
+    "meaning": [
+      "~을 눈으로 좇다",
+      "~에 주의하다",
+      "~를 보살펴주다",
+      "~를 감독하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "branch out",
+    "meaning": [
+      "시작하다",
+      "진출하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:36",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:46"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "branch out to",
+    "meaning": [
+      "~로 확장하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "underway",
+    "meaning": [
+      "여행[진행] 중인",
+      "움직이고 있는"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "rushed",
+    "meaning": [
+      "서두른",
+      "성급히 한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "thorough",
+    "meaning": [
+      "빈틈없는",
+      "철저한"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "turn out",
+    "meaning": [
+      "결과적으로 ~이 되다",
+      "참석하다",
+      "(전기 등을) 끄다",
+      "생산하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "set out",
+    "meaning": [
+      "출발[시작]하다",
+      "착수하다",
+      "~을 정리하다",
+      "~을 제시하다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "dissertation",
+    "meaning": [
+      "논문"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "puncture",
+    "meaning": [
+      "타이어 펑크",
+      "구멍을 내다",
+      "없어지게 만들다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "drop by",
+    "meaning": [
+      "잠깐 들르다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "stop by",
+    "meaning": [
+      "~에 들르다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "resurface",
+    "meaning": [
+      "다시 떠오르다",
+      "표면 처리를 다시하다",
+      "~을 재포장하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:34",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:44"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "junction",
+    "meaning": [
+      "교차로",
+      "합류점",
+      "접합점"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "intersection",
+    "meaning": [
+      "교차로",
+      "합류점",
+      "접합점"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "pothole",
+    "meaning": [
+      "음푹 패인 곳"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "allocate",
+    "meaning": [
+      "할당하다"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:33",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:43"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "enthusiast",
+    "meaning": [
+      "애호가"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "amenities",
+    "meaning": [
+      "편의 시설"
+    ],
+    "example": "",
+    "correct_cnt": 1,
+    "incorrect_cnt": 0,
+    "last_reviewed": "2025-06-03 17:24",
+    "mode": "objective",
+    "next_review": "2025-06-03 21:34"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "implement",
+    "meaning": [
+      "~을 시행하다",
+      "도구[기구]"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "inform A of B",
+    "meaning": [
+      "A에게 B를 알리다"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "postcode",
+    "meaning": [
+      "우편 번호"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "zip code",
+    "meaning": [
+      "우편 번호"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Court(Ct)",
+    "meaning": [
+      "(공동 주택의) 도로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Drive(Dr)",
+    "meaning": [
+      "(주택의) 진입로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Lane(Ln)",
+    "meaning": [
+      "(차가 다니는 좁은) 도로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Road(Rd)",
+    "meaning": [
+      "(차가 다닐 수 있는) 도로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Street(St)",
+    "meaning": [
+      "길",
+      "도로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
+  },
+  {
+    "created_at": "2025-06-02 21:35",
+    "word": "Avenue(Ave)",
+    "meaning": [
+      "(가로수가 있는) 도로"
+    ],
+    "example": "",
+    "correct_cnt": 0,
+    "incorrect_cnt": 0,
+    "last_reviewed": null,
+    "mode": "objective",
+    "next_review": "2025-06-03 00:35"
   }
 ]
