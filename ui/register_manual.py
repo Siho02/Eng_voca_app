@@ -4,6 +4,8 @@ from tkinter import messagebox
 import json
 import os
 from datetime import datetime, timedelta
+from study_log import update_study_log
+
 
 DATA_PATH = "data/words.json"
 
@@ -102,8 +104,10 @@ class RegisterManualScreen(tk.Frame):
         with open(DATA_PATH, 'w', encoding='utf-8') as f:
             f = json.dump(data, f, ensure_ascii=False, indent=2)
 
-            
-        # 8. 성공 메시지 + 입력 필드 초기화
+        # 9. 단어 등록 로그
+        update_study_log("register")
+
+        # 10. 성공 메시지 + 입력 필드 초기화
         messagebox.showinfo("저장 완료", f"'{word}' 단어가 저장되었습니다.")
         self.word_entry.delete(0, tk.END)
         self.meaning_entry.delete(0, tk.END)

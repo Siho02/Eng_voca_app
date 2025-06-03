@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import csv, json, os, shutil
 from datetime import datetime, timedelta
+from study_log import update_study_log 
 
 DATA_PATH = "data/words.json"
 TEMPLATE_PATH = "data/sample_template.csv"
@@ -125,6 +126,8 @@ class RegisterCSVScreen(tk.Frame):
          #5. 몇 개 등록되었는지 메시지 띄우기
         with open(DATA_PATH, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+
+        update_study_log("register")
 
         msg = f"{added_count}개 새로 등록됨 / {updated_count}개 병합됨 / {skipped_count}개 중복으로 무시됨"
         self.result_label.config(text=msg)

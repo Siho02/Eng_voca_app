@@ -67,7 +67,7 @@ class HomeScreen(tk.Frame):
             word_data = []
 
         studied, reviewed, streak = calculate_study_summary(word_data)
-        if streak >= 5:
+        if streak >= 3:
             self.summary_label.config(
                 text=f"오늘 공부한 단어: {studied}개\n복습한 단어: {reviewed}개\n연속 학습일: {streak}일"
             )
