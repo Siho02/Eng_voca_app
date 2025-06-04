@@ -47,9 +47,15 @@ class HomeScreen(tk.Frame):
         tk.Button(btn_frame, text="단어 전체 보기", command=lambda: controller.show_screen('word_list'), **btn_style).pack(pady=5)
         tk.Button(btn_frame, text="단어 공부하러 가기", command = lambda: controller.show_screen('study'),**btn_style).pack(pady=5)
 
+         # ✅ 홈화면에 달력 뷰 바로 배치
+        #self.calendar_frame = StudyCalendar(self, controller)
+        #self.calendar_frame.pack(pady=10)
+
         record_frame = tk.Frame(self, bg="lightgray", width=400, height=200)
         record_frame.pack(pady=20)
         record_frame.pack_propagate(False)
+
+        tk.Button(btn_frame, text="📅 학습 달력 보기", command=lambda: controller.show_screen("calendar"), **btn_style).pack(pady=5)
 
         self.summary_label = tk.Label(self, text="", bg='lightgray', font = ('Arial', 12))
         self.summary_label.pack(pady=10)
@@ -73,5 +79,5 @@ class HomeScreen(tk.Frame):
             )
         else:
             self.summary_label.config(
-                text="5일 이상 공부하면 학습 기록이 표시됩니다."
+                text="3일 이상 공부하면 학습 기록이 표시됩니다."
             ) 

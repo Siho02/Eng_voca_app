@@ -5,6 +5,7 @@ import os
 import time 
 from datetime import datetime, timedelta
 import math
+from study_log import update_study_log
 
 DATA_PATH = "data/words.json"
 
@@ -121,9 +122,11 @@ class StudyScreen(tk.Frame):
         if selected_text == self.current_answer:
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
             self.quiz_word['correct_cnt'] += 1
+            update_study_log("study", correct=True)
         else:
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
             self.quiz_word['incorrect_cnt'] += 1
+            update_study_log("study", incorrect=True)
         
         # last_reivews 
         self.quiz_word['last_reviewed'] = now_str
