@@ -2,6 +2,7 @@ import tkinter as tk
 from datetime import datetime, timedelta
 import os 
 import json
+from ui.calendar_view import StudyCalendar
 
 DATA_PATH = "data/words.json"
 
@@ -35,31 +36,31 @@ class HomeScreen(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        self.configure(bg="white")
+        #self.configure(bg="white")
 
         tk.Label(self, text="📘 단어장", font=("Arial", 24), bg="white").pack(pady=20)
 
         btn_frame = tk.Frame(self, bg="white")
-        btn_frame.pack(pady=20)
+        btn_frame.pack(pady=10)
 
         btn_style = {"bg": "orange", "fg": "white", "width": 25, "height": 2, "font": ("Arial", 12)}
         tk.Button(btn_frame, text="단어 등록하러 가기", command=lambda: controller.show_screen("register"), **btn_style).pack(pady=5)
         tk.Button(btn_frame, text="단어 전체 보기", command=lambda: controller.show_screen('word_list'), **btn_style).pack(pady=5)
         tk.Button(btn_frame, text="단어 공부하러 가기", command = lambda: controller.show_screen('study'),**btn_style).pack(pady=5)
 
-         # ✅ 홈화면에 달력 뷰 바로 배치
-        #self.calendar_frame = StudyCalendar(self, controller)
-        #self.calendar_frame.pack(pady=10)
+        # ✅ 홈화면에 달력 뷰 바로 배치
+        self.calendar_frame = StudyCalendar(self, controller)
+        self.calendar_frame.pack(pady=10)
 
+        # 오늘의 학습 요약
         record_frame = tk.Frame(self, bg="lightgray", width=400, height=200)
         record_frame.pack(pady=20)
         record_frame.pack_propagate(False)
 
-        tk.Button(btn_frame, text="📅 학습 달력 보기", command=lambda: controller.show_screen("calendar"), **btn_style).pack(pady=5)
+        #tk.Button(btn_frame, text="📅 학습 달력 보기", command=lambda: controller.show_screen("calendar"), **btn_style).pack(pady=5)
 
         self.summary_label = tk.Label(self, text="", bg='lightgray', font = ('Arial', 12))
         self.summary_label.pack(pady=10)
-        
         self.update_summary()
     
     def update_summary(self):

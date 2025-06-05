@@ -16,5 +16,14 @@
     "incorrect_count": 1,
     "study_minutes": 0,
     "study_sessions": []
+  },
+  "2025-06-05": {
+    "studied_word_count": 15,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 15,
+    "incorrect_count": 0,
+    "study_minutes": 0,
+    "study_sessions": []
   }
 }
