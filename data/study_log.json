@@ -25,5 +25,91 @@
     "incorrect_count": 0,
     "study_minutes": 0,
     "study_sessions": []
+  },
+  "2025-06-06": {
+    "studied_word_count": 37,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 35,
+    "incorrect_count": 3,
+    "study_minutes": 0,
+    "study_sessions": [
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:52"
+      },
+      {
+        "start": "16:52",
+        "end": "16:53"
+      },
+      {
+        "start": "16:53",
+        "end": "16:53"
+      },
+      {
+        "start": "16:53",
+        "end": "16:53"
+      },
+      {
+        "start": "16:53",
+        "end": "16:53"
+      },
+      {
+        "start": "16:53",
+        "end": "16:53"
+      },
+      {
+        "start": "16:53",
+        "end": "16:54"
+      },
+      {
+        "start": "16:54",
+        "end": "16:54"
+      },
+      {
+        "start": "16:54",
+        "end": "16:54"
+      },
+      {
+        "start": "16:54",
+        "end": "16:54"
+      },
+      {
+        "start": "16:54",
+        "end": "16:54"
+      }
+    ]
   }
 }

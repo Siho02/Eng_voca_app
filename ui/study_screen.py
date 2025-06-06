@@ -13,8 +13,9 @@ class StudyScreen(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        self.configure(bg="white")
-        
+        self.configure(bg="white")        
+        self.start_study()
+
         tk.Label(self, text="🎯 단어 퀴즈", font=('Arial', 20), bg='white').pack(pady=10)
 
         #문제 영역
@@ -44,6 +45,20 @@ class StudyScreen(tk.Frame):
 
         # 첫 문제 출제
         self.next_question()
+    
+    def go_home(self):
+        # 공부 종료 시간 기록
+        study_end_time = datetime.now().strftime("%H:%M")
+        
+        # 세션 시간 기록 (전체 세션으로 딱 한 번만!)
+        update_study_log("study", session_time=(self.study_start_time, study_end_time))
+
+        # 홈 화면으로 돌아가기
+        self.controller.show_screen("home")
+
+    def start_study(self):
+        self.study_start_time = datetime.now().strftime("%H:%M")
+        print(f"공부 시작 시간 : {self.study_start_time}")
 
     def load_data(self):
         # ✅ words.json에서 단어들을 불러옴
@@ -146,4 +161,4 @@ class StudyScreen(tk.Frame):
             btn.config(state="disabled")
 
         
-        
+    

@@ -41,7 +41,8 @@ def update_study_log(action, correct=False, incorrect=False, session_time=None):
         if session_time:
             start, end = session_time
             log_data[today]["study_sessions"].append({"start": start, "end": end})
-            # 선택: study_minutes는 직접 계산해서 더하기 (예: 40분)
+            #공부 시간 누적
+            minutes = minutes_between(start, end)
     elif action == "register":
         log_data[today]["registered_word_count"] += 1
     elif action == "delete":
