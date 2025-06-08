@@ -111,5 +111,36 @@
         "end": "16:54"
       }
     ]
+  },
+  "2025-06-07": {
+    "studied_word_count": 11,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 8,
+    "incorrect_count": 3,
+    "study_minutes": 0,
+    "study_sessions": []
+  },
+  "2025-06-08": {
+    "studied_word_count": 59,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 49,
+    "incorrect_count": 7,
+    "study_minutes": 4,
+    "study_sessions": [
+      {
+        "start": "19:56",
+        "end": "19:56"
+      },
+      {
+        "start": "19:56",
+        "end": "20:00"
+      },
+      {
+        "start": "20:03",
+        "end": "20:03"
+      }
+    ]
   }
 }

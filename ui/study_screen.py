@@ -14,11 +14,11 @@ class StudyScreen(tk.Frame):
         super().__init__(parent)
         self.controller = controller
         self.configure(bg="white")        
+        
+        #공부 시작 시간 기록 
         self.start_study()
 
         tk.Label(self, text="🎯 단어 퀴즈", font=('Arial', 20), bg='white').pack(pady=10)
-
-        #문제 영역
         self.question_label = tk.Label(self, text='', font=('Arial', 15), bg='white')
         self.question_label.pack(pady=15)
 
@@ -37,7 +37,7 @@ class StudyScreen(tk.Frame):
         tk.Button(self, text='다음 문제', command=self.next_question).pack(pady=10)
 
         # 홈으로 돌아가기
-        tk.Button(self, text="← 홈으로", command=lambda: controller.show_screen("home")).pack(pady=10)
+        tk.Button(self, text="← 홈으로", command=self.go_home).pack(pady=10)
 
         # 단어 데이터 불러오기
         self.load_data()

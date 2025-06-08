@@ -22,11 +22,11 @@
       "~를 엉망진창으로 만들다(us)"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 1,
-    "last_reviewed": "2025-06-02 20:18",
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-03 01:51"
+    "next_review": "2025-06-09 03:12"
   },
   {
     "created_at": "2025-05-31 15:18",
@@ -128,11 +128,11 @@
       "실현 가능한"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:39",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-04 00:15"
+    "next_review": "2025-06-09 04:02"
   },
   {
     "created_at": "2025-06-01 18:07",
@@ -181,11 +181,11 @@
       "고기후"
     ],
     "example": "~을 못하게 하다\"",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:37",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-04 23:46"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -194,11 +194,11 @@
       "고고학"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -344,10 +344,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 19:59"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -357,11 +357,11 @@
       "의식적인"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:36",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-04 23:45"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -398,10 +398,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:53",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 19:56"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -453,11 +453,11 @@
       "~을 정독하다"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-06 21:24"
+    "next_review": "2025-06-09 04:15"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -553,10 +553,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-07 15:12",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 15:15"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -581,11 +581,11 @@
       "뇌량"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:05"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -653,10 +653,10 @@
     ],
     "example": "",
     "correct_cnt": 1,
-    "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:35",
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:57",
     "mode": "objective",
-    "next_review": "2025-06-04 23:45"
+    "next_review": "2025-06-08 23:15"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -666,11 +666,11 @@
       "~을 못하게 하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 1,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-06 17:17"
+    "next_review": "2025-06-08 23:01"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -679,11 +679,11 @@
       "측두엽"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 16:52",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-06 21:02"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -724,10 +724,10 @@
     ],
     "example": "",
     "correct_cnt": 1,
-    "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 21:20",
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 20:03",
     "mode": "objective",
-    "next_review": "2025-06-05 01:29"
+    "next_review": "2025-06-08 23:21"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -846,11 +846,11 @@
       "주목하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 1,
-    "last_reviewed": "2025-06-04 19:53",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-04 19:56"
+    "next_review": "2025-06-08 23:01"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -900,11 +900,11 @@
       "의견 일치를 보다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-07 15:18",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 19:28"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -913,11 +913,11 @@
       "~에 동의하다"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:25",
+    "last_reviewed": "2025-06-08 19:57",
     "mode": "objective",
-    "next_review": "2025-06-03 21:34"
+    "next_review": "2025-06-09 02:33"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -940,11 +940,11 @@
       "반항적인"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-07 15:13",
     "mode": "objective",
-    "next_review": "2025-06-06 21:24"
+    "next_review": "2025-06-07 21:48"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -956,11 +956,11 @@
       "저항하다"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:37",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-05 02:12"
+    "next_review": "2025-06-09 04:15"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1057,11 +1057,11 @@
       "자기 주장을 하다"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-06 23:50"
+    "next_review": "2025-06-09 04:15"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1070,11 +1070,11 @@
       "성실성"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:54",
+    "last_reviewed": "2025-06-08 20:03",
     "mode": "objective",
-    "next_review": "2025-06-05 00:04"
+    "next_review": "2025-06-09 02:39"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1110,11 +1110,11 @@
       "외향성"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 16:52",
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-06 21:02"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1125,10 +1125,10 @@
     ],
     "example": "",
     "correct_cnt": 2,
-    "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:54",
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-07 15:12",
     "mode": "objective",
-    "next_review": "2025-06-05 02:30"
+    "next_review": "2025-06-07 20:44"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1155,11 +1155,11 @@
       "받아들일 수 있는"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:06"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1195,11 +1195,11 @@
       "~에 빠지다"
     ],
     "example": "",
-    "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "correct_cnt": 1,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:01"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1280,11 +1280,11 @@
       "~을 깍아내리다[폄하하다]"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:37",
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-05 02:12"
+    "next_review": "2025-06-09 04:17"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1462,11 +1462,11 @@
       "1층"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:06"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1475,11 +1475,11 @@
       "1층"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1570,11 +1570,11 @@
       "비관적인"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:23",
+    "last_reviewed": "2025-06-08 19:53",
     "mode": "objective",
-    "next_review": "2025-06-03 21:33"
+    "next_review": "2025-06-09 02:29"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1627,11 +1627,11 @@
       "의례"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:36",
+    "last_reviewed": "2025-06-07 15:09",
     "mode": "objective",
-    "next_review": "2025-06-04 23:46"
+    "next_review": "2025-06-07 21:45"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1671,11 +1671,11 @@
       "퇴적물"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1750,11 +1750,11 @@
       "~을 삼키다[먹다]"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:07"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1763,11 +1763,11 @@
       "물리학자"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1777,11 +1777,11 @@
       "내과의"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:05"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1832,11 +1832,11 @@
       "극피동물(불가사리-성게 등)"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 16:52",
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-06 21:02"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1858,11 +1858,11 @@
       "연체 동물"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:57",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:07"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1912,11 +1912,11 @@
       "잡식 동물"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:25",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 21:35"
+    "next_review": "2025-06-09 02:31"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -1951,11 +1951,11 @@
       "육식 동물"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 1,
-    "last_reviewed": "2025-06-04 19:37",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-04 19:40"
+    "next_review": "2025-06-08 23:14"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2003,11 +2003,11 @@
       "포유류"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:23",
+    "last_reviewed": "2025-06-08 20:03",
     "mode": "objective",
-    "next_review": "2025-06-03 21:33"
+    "next_review": "2025-06-09 02:39"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2084,11 +2084,11 @@
       "불리한"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-06 21:24"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2153,11 +2153,11 @@
       "역겨운"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:36",
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-05 02:12"
+    "next_review": "2025-06-09 04:03"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2194,11 +2194,11 @@
       "(불순물에 의한) 오염"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2208,11 +2208,11 @@
       "~에 악영향을 주다"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:34",
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-03 21:44"
+    "next_review": "2025-06-09 02:33"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2252,11 +2252,11 @@
       "연루"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-07 15:18",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 19:28"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2341,10 +2341,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:57",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 20:00"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2369,11 +2369,11 @@
       "배제하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:05"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2512,10 +2512,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 19:59"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2551,11 +2551,11 @@
       "결점"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:07"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2591,11 +2591,11 @@
       "배포하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:53",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:03"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2617,11 +2617,11 @@
       "표절"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-07 15:13",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 19:22"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2630,11 +2630,11 @@
       "표절하다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-07 15:13",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 19:22"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2686,11 +2686,11 @@
       "교수단"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-06 23:50"
+    "next_review": "2025-06-09 04:03"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2891,11 +2891,11 @@
       "원산의[토착의]"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:35",
+    "last_reviewed": "2025-06-08 20:00",
     "mode": "objective",
-    "next_review": "2025-06-04 23:45"
+    "next_review": "2025-06-09 02:35"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2917,11 +2917,11 @@
       "섬유"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-03 17:23",
+    "last_reviewed": "2025-06-08 20:03",
     "mode": "objective",
-    "next_review": "2025-06-03 21:32"
+    "next_review": "2025-06-09 02:39"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2930,11 +2930,11 @@
       "섬유"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:43",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2944,11 +2944,11 @@
       "널리 퍼져 있는"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:55",
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-05 00:05"
+    "next_review": "2025-06-09 02:19"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -2959,11 +2959,11 @@
       "소수민족출신자"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 20:00",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:09"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3044,11 +3044,11 @@
       "~에 적용되다"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-05 19:36",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-05 23:46"
+    "next_review": "2025-06-09 02:31"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3386,11 +3386,11 @@
       "움직이고 있는"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-04 19:37",
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-04 23:46"
+    "next_review": "2025-06-09 02:33"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3400,11 +3400,11 @@
       "성급히 한"
     ],
     "example": "",
-    "correct_cnt": 1,
+    "correct_cnt": 2,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:15",
+    "last_reviewed": "2025-06-08 19:56",
     "mode": "objective",
-    "next_review": "2025-06-06 21:24"
+    "next_review": "2025-06-09 02:32"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3430,11 +3430,11 @@
       "생산하다"
     ],
     "example": "",
-    "correct_cnt": 2,
+    "correct_cnt": 3,
     "incorrect_cnt": 0,
-    "last_reviewed": "2025-06-06 17:14",
+    "last_reviewed": "2025-06-08 19:58",
     "mode": "objective",
-    "next_review": "2025-06-06 23:50"
+    "next_review": "2025-06-09 04:17"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3447,10 +3447,10 @@
     ],
     "example": "",
     "correct_cnt": 0,
-    "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "incorrect_cnt": 1,
+    "last_reviewed": "2025-06-08 19:53",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 19:56"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3487,11 +3487,11 @@
       "잠깐 들르다"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 20:03",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-09 00:13"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3558,11 +3558,11 @@
       "음푹 패인 곳"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-08 19:44",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-08 23:53"
   },
   {
     "created_at": "2025-06-02 21:35",
@@ -3584,11 +3584,11 @@
       "애호가"
     ],
     "example": "",
-    "correct_cnt": 0,
+    "correct_cnt": 1,
     "incorrect_cnt": 0,
-    "last_reviewed": null,
+    "last_reviewed": "2025-06-07 15:09",
     "mode": "objective",
-    "next_review": "2025-06-03 00:35"
+    "next_review": "2025-06-07 19:19"
   },
   {
     "created_at": "2025-06-02 21:35",

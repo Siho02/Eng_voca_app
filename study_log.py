@@ -42,7 +42,10 @@ def update_study_log(action, correct=False, incorrect=False, session_time=None):
             start, end = session_time
             log_data[today]["study_sessions"].append({"start": start, "end": end})
             #공부 시간 누적
-            minutes = minutes_between(start, end)
+            total_minutes = 0
+            for session in log_data[today]["study_sessions"]:
+                total_minutes += minutes_between(session["start"], session["end"])
+            log_data[today]["study_minutes"] = total_minutes
     elif action == "register":
         log_data[today]["registered_word_count"] += 1
     elif action == "delete":
