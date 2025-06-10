@@ -45,20 +45,6 @@ class StudyScreen(tk.Frame):
 
         # 첫 문제 출제
         self.next_question()
-    
-    def go_home(self):
-        # 공부 종료 시간 기록
-        study_end_time = datetime.now().strftime("%H:%M")
-        
-        # 세션 시간 기록 (전체 세션으로 딱 한 번만!)
-        update_study_log("study", session_time=(self.study_start_time, study_end_time))
-
-        # 홈 화면으로 돌아가기
-        self.controller.show_screen("home")
-
-    def start_study(self):
-        self.study_start_time = datetime.now().strftime("%H:%M")
-        print(f"공부 시작 시간 : {self.study_start_time}")
 
     def load_data(self):
         # ✅ words.json에서 단어들을 불러옴
@@ -70,7 +56,126 @@ class StudyScreen(tk.Frame):
                     self.word_data = []
         else:
             self.word_data = []
+
+    def next_question(self):
+        self.clear_subjective_widgets()
+
+        self.feedback_label.config(text="")
+        now = datetime.now() 
+
+        # 복습 가능한 단어 필터링
+        reviewable_words = [] 
+        
+        for entry in self.word_data:
+            next_review_str = entry.get('next_review')
+            if next_review_str:
+                next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
+                if now >= next_review_dt:
+                    reviewable_words.append(entry)
+        
+        # 복습할 단어가 없으면 안내
+        if len(reviewable_words) < 4:
+            self.question_label.config(text='🥳복습을 모두 마쳤습니다.')
+            for btn in self.option_buttons:
+                btn.config(text='', state='disabled')
+            return 
+
+        #문제 단어 선택
+        self.quiz_word = random.choice(reviewable_words)
+
+        #주관식 모드 전환 조건
+        cor = self.quiz_word.get("correct_cnt", 0)
+        inc = self.quiz_word.get("incorrect_cnt", 0)
+        total = cor + inc
+        accuracy = cor / total if total > 0 else 0
+
+        #복습횟수(total)이 20 초과이고, accuracy > 0.85 이상이면 주관식으로 전환
+        if total > 20 and accuracy >= 0.85:
+            self.quiz_word['mode'] = 'subjective'
+        else:
+            self.quiz_word['mode'] = 'objective'
+        
+        if self.quiz_word['mode'] == 'objective':
+            self.show_objective_question()
+        else:
+            self.show_subjective_question()
+
+    def show_objective_question(self):
+        correct_meaning = random.choice(self.quiz_word['meaning'])
+        self.current_answer = correct_meaning
+
+        other_meanings = [m for e in self.word_data if e!=self.quiz_word for m in e.get("meaning", [])]
+        wrong_choices = random.sample(other_meanings, 3) if len(other_meanings) >= 3 else other_meanings
+        options = wrong_choices + [correct_meaning]
+        random.shuffle(options)
+
+        self.question_label.config(text=f"'{self.quiz_word['word']}'의 뜻은?")
+        for i, option in enumerate(options):
+            self.option_buttons[i].config(text=option, state="normal")
+
+    def show_subjective_question(self):
+        self.question_label.config(text=f"'{self.quiz_word['word']}'의 뜻을 입력하세요:")
+        self.entry_answer = tk.Entry(self, width=30)
+        self.entry_answer.pack(pady=5)
+        self.submit_btn = tk.Button(self, text="제출", command=self.check_subjective_answer)
+        self.submit_btn.pack(pady=5)
+        for btn in self.option_buttons:
+            btn.pack_forget()  # 객관식 버튼 숨김
+
+    def check_answer(self, selected_index):
+        selected_text = self.option_buttons[selected_index].cget("text")
+        if selected_text == self.current_answer:
+            self.feedback_label.config(text="✅ 정답입니다!", fg="green")
+            self.quiz_word["correct_cnt"] += 1
+            update_study_log("study", correct=True)
+        else:
+            self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
+            self.quiz_word["incorrect_cnt"] += 1
+            update_study_log("study", incorrect=True)
+
+        with open(DATA_PATH, "w", encoding="utf-8") as f:
+            json.dump(self.word_data, f, ensure_ascii=False, indent=2)
+
+        for btn in self.option_buttons:
+            btn.config(state="disabled")
+
+    def check_subjective_answer(self):
+        user_answer = self.entry_answer.get().strip()
+        correct_meanings = [m.replace(" ", "") for m in self.quiz_word["meaning"]]
+        user_input = user_answer.replace(" ", "")
+
+        if user_input in correct_meanings:
+            self.feedback_label.config(text="✅ 정답입니다!", fg="green")
+            self.quiz_word["correct_cnt"] += 1
+            update_study_log("study", correct=True)
+        else:
+            self.feedback_label.config(text=f"❌ 오답입니다. 정답: {correct_meanings}", fg="red")
+            self.quiz_word["incorrect_cnt"] += 1
+            update_study_log("study", incorrect=True)
+
+        with open(DATA_PATH, "w", encoding="utf-8") as f:
+            json.dump(self.word_data, f, ensure_ascii=False, indent=2)
+
+        self.entry_answer.destroy()
+        self.submit_btn.destroy()
+
+    def clear_subjective_widgets(self):
+        if hasattr(self, "entry_answer"):
+            self.entry_answer.destroy()
+        if hasattr(self, "submit_btn"):
+            self.submit_btn.destroy()
+        for btn in self.option_buttons:
+            btn.pack(pady=5)
     
+    def go_home(self):
+        study_end_time = datetime.now().strftime("%H:%M")
+        update_study_log("study", session_time=(self.study_start_time, study_end_time))
+        self.controller.show_screen("home")
+
+    def start_study(self):
+        self.study_start_time = datetime.now().strftime("%H:%M")
+        print(f"공부 시작 시간 : {self.study_start_time}")
+
     def calculate_after_min(self, cor, inc):
         total = cor + inc 
 
@@ -90,75 +195,6 @@ class StudyScreen(tk.Frame):
         after_min = max(3, min(after_min, 43200))
         return after_min
 
-    def next_question(self):
-        self.feedback_label.config(text="")
-        now = datetime.now() 
-
-        # 복습 가능한 단어 필터링
-        reviewable_words = [] 
-        for entry in self.word_data:
-            next_review_str = entry.get('next_review')
-            if next_review_str:
-                next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
-                if now >= next_review_dt:
-                    reviewable_words.append(entry)
-        
-        # 복습할 단어가 없으면 안내
-        if len(reviewable_words) < 4:
-            self.question_label.config(text='🥳복습을 모두 마쳤습니다.')
-            for btn in self.option_buttons:
-                btn.config(text='', state='disabled')
-            return 
-
-        #문제 단어 선택
-        self.quiz_word = random.choice(reviewable_words)
-        correct_meaning = random.choice(self.quiz_word['meaning'])
-        self.current_answer = correct_meaning
-
-        #오답 보기 추출 : 단어 전체에서 가져옴옴
-        other_meanings= []
-        for entry in self.word_data:
-            if entry != self.quiz_word:
-                other_meanings.extend(entry.get('meaning', []))
-        
-        wrong_choices = random.sample(other_meanings, 3)
-        options = wrong_choices + [correct_meaning]
-        random.shuffle(options)
-
-        self.question_label.config(text=f"'{self.quiz_word['word']}'의 뜻은?")
-        for i, option in enumerate(options):
-            self.option_buttons[i].config(text=option, state="normal")
-
-
-    def check_answer(self, selected_index):
-        selected_text = self.option_buttons[selected_index].cget("text")
-        now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
-        
-        if selected_text == self.current_answer:
-            self.feedback_label.config(text="✅ 정답입니다!", fg="green")
-            self.quiz_word['correct_cnt'] += 1
-            update_study_log("study", correct=True)
-        else:
-            self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
-            self.quiz_word['incorrect_cnt'] += 1
-            update_study_log("study", incorrect=True)
-        
-        # last_reivews 
-        self.quiz_word['last_reviewed'] = now_str
-
-        # next_review
-        correct = self.quiz_word['correct_cnt']
-        incorrect = self.quiz_word['incorrect_cnt']
-        after_min = self.calculate_after_min(correct, incorrect)
-
-        next_review_dt = datetime.now() + timedelta(minutes=after_min)
-        self.quiz_word['next_review'] = next_review_dt.strftime("%Y-%m-%d %H:%M")
-
-        with open(DATA_PATH, 'w', encoding='utf-8') as f:
-            json.dump(self.word_data, f, ensure_ascii=False, indent=2)
-        
-        for btn in self.option_buttons:
-            btn.config(state="disabled")
-
+    
         
     

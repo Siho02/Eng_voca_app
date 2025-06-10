@@ -142,5 +142,49 @@
         "end": "20:03"
       }
     ]
+  },
+  "2025-06-09": {
+    "studied_word_count": 42,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 37,
+    "incorrect_count": 2,
+    "study_minutes": 15,
+    "study_sessions": [
+      {
+        "start": "12:12",
+        "end": "12:18"
+      },
+      {
+        "start": "12:12",
+        "end": "12:18"
+      },
+      {
+        "start": "17:31",
+        "end": "17:34"
+      }
+    ]
+  },
+  "2025-06-10": {
+    "studied_word_count": 65,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 60,
+    "incorrect_count": 2,
+    "study_minutes": 7,
+    "study_sessions": [
+      {
+        "start": "21:17",
+        "end": "21:18"
+      },
+      {
+        "start": "21:17",
+        "end": "21:20"
+      },
+      {
+        "start": "21:20",
+        "end": "21:23"
+      }
+    ]
   }
 }
