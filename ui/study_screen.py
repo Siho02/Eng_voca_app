@@ -9,12 +9,31 @@ from study_log import update_study_log
 
 DATA_PATH = "data/words.json"
 
+def calculate_after_min(cor, inc):
+    total = cor + inc 
+
+    #처음 복습은 무조건 3시간 후에
+    if total==0: return 180
+
+    acc = cor / total
+    log_factor = math.log(total+1)
+    acc_adj = (2*acc) - 1 #정답률이 0.5보다 작으면 음수가 나옴
+    
+    after_min = 180 * log_factor * (1 + acc_adj)
+
+    #15번 이상 복습하면 복습 주기를 좀 더 길게 해줍니다.
+    if total >= 20:
+        after_min *= 1.2
+
+    after_min = max(3, min(after_min, 43200))
+    return after_min
+
 class StudyScreen(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
         self.configure(bg="white")        
-        
+
         #공부 시작 시간 기록 
         self.start_study()
 
@@ -74,7 +93,7 @@ class StudyScreen(tk.Frame):
                     reviewable_words.append(entry)
         
         # 복습할 단어가 없으면 안내
-        if len(reviewable_words) < 4:
+        if len(reviewable_words) == 0:
             self.question_label.config(text='🥳복습을 모두 마쳤습니다.')
             for btn in self.option_buttons:
                 btn.config(text='', state='disabled')
@@ -121,10 +140,14 @@ class StudyScreen(tk.Frame):
         self.submit_btn.pack(pady=5)
         for btn in self.option_buttons:
             btn.pack_forget()  # 객관식 버튼 숨김
+    
+    
 
     def check_answer(self, selected_index):
         selected_text = self.option_buttons[selected_index].cget("text")
-        if selected_text == self.current_answer:
+        correct = selected_text == self.current_answer
+
+        if correct: 
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
             self.quiz_word["correct_cnt"] += 1
             update_study_log("study", correct=True)
@@ -132,6 +155,9 @@ class StudyScreen(tk.Frame):
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
             self.quiz_word["incorrect_cnt"] += 1
             update_study_log("study", incorrect=True)
+
+        # ✅ 복습한 시간과 다음 복습일 갱신
+        self.update_review_schedule()
 
         with open(DATA_PATH, "w", encoding="utf-8") as f:
             json.dump(self.word_data, f, ensure_ascii=False, indent=2)
@@ -142,6 +168,7 @@ class StudyScreen(tk.Frame):
     def check_subjective_answer(self):
         user_answer = self.entry_answer.get().strip()
         correct_meanings = [m.replace(" ", "") for m in self.quiz_word["meaning"]]
+        
         user_input = user_answer.replace(" ", "")
 
         if user_input in correct_meanings:
@@ -152,12 +179,23 @@ class StudyScreen(tk.Frame):
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {correct_meanings}", fg="red")
             self.quiz_word["incorrect_cnt"] += 1
             update_study_log("study", incorrect=True)
-
+        
+        self.update_review_schedule()
+        
         with open(DATA_PATH, "w", encoding="utf-8") as f:
             json.dump(self.word_data, f, ensure_ascii=False, indent=2)
 
         self.entry_answer.destroy()
         self.submit_btn.destroy()
+    
+    def update_review_schedule(self):
+        now = datetime.now()
+        self.quiz_word["last_reviewed"] = now.strftime("%Y-%m-%d %H:%M")
+        cor = self.quiz_word["correct_cnt"]
+        inc = self.quiz_word["incorrect_cnt"]
+        after_min = calculate_after_min(cor, inc)
+        next_review_dt = now + timedelta(minutes=after_min)
+        self.quiz_word["next_review"] = next_review_dt.strftime("%Y-%m-%d %H:%M")
 
     def clear_subjective_widgets(self):
         if hasattr(self, "entry_answer"):
@@ -176,25 +214,7 @@ class StudyScreen(tk.Frame):
         self.study_start_time = datetime.now().strftime("%H:%M")
         print(f"공부 시작 시간 : {self.study_start_time}")
 
-    def calculate_after_min(self, cor, inc):
-        total = cor + inc 
-
-        #처음 복습은 무조건 3시간 후에
-        if total==0: return 180
-
-        acc = cor / total
-        log_factor = math.log(total+1)
-        acc_adj = (2*acc) - 1 #정답률이 0.5보다 작으면 음수가 나옴
-        
-        after_min = 180 * log_factor * (1 + acc_adj)
-
-        #15번 이상 복습하면 복습 주기를 좀 더 길게 해줍니다.
-        if total >= 15:
-            after_min *= 1.2
-
-        after_min = max(3, min(after_min, 43200))
-        return after_min
-
+    
     
         
     
