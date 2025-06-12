@@ -7,6 +7,7 @@ from ui.register_csv import RegisterCSVScreen
 from ui.word_list import WordListScreen
 from ui.study_screen import StudyScreen
 from ui.calendar_view import StudyCalendar
+from ui.study_mode_select import StudyModeSelect
 
 class MyVocaApp(tk.Tk):
     def __init__(self):
@@ -45,6 +46,7 @@ class MyVocaApp(tk.Tk):
         self.screens["word_list"] = WordListScreen(self.container, self)
         self.screens['study'] = StudyScreen(self.container, self)
         self.screens['calendar'] = StudyCalendar(self.container, self)
+        self.screens['study_mode'] = StudyModeSelect(self.container, self)
         for screen in self.screens.values():
             screen.grid(row = 0, column = 0, sticky = 'nsew') 
 
@@ -53,6 +55,14 @@ class MyVocaApp(tk.Tk):
             self.screens[name].tkraise()
         else:
             print(f"[Error] 화면 '{name}' 이(가) 존재하지 않아요!")
+
+    def show_study_screen(self, mode):
+        if "study" in self.screens:
+            self.screens['study'].destroy()
+        
+        self.screens['study']=StudyScreen(self.container, self, mode=mode)
+        self.screens['study'].grid(row=0, column=0, sticky='nsew')
+        self.screens['study'].tkraise()
 
     def create_navigation(self):
         tk.Button(self.nav_frame, text="Home", bg="lightgreen", command=lambda: self.show_screen("home")).pack(side="left", expand=True, fill="x")

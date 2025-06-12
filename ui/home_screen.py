@@ -46,7 +46,7 @@ class HomeScreen(tk.Frame):
         btn_style = {"bg": "orange", "fg": "white", "width": 25, "height": 2, "font": ("Arial", 12)}
         tk.Button(btn_frame, text="단어 등록하러 가기", command=lambda: controller.show_screen("register"), **btn_style).pack(pady=5)
         tk.Button(btn_frame, text="단어 전체 보기", command=lambda: controller.show_screen('word_list'), **btn_style).pack(pady=5)
-        tk.Button(btn_frame, text="단어 공부하러 가기", command = lambda: controller.show_screen('study'),**btn_style).pack(pady=5)
+        tk.Button(btn_frame, text="단어 공부하러 가기", command = lambda: controller.show_screen('study_mode'),**btn_style).pack(pady=5)
 
         # ✅ 홈화면에 달력 뷰 바로 배치
         self.calendar_frame = StudyCalendar(self, controller)

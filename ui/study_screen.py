@@ -6,6 +6,7 @@ import time
 from datetime import datetime, timedelta
 import math
 from study_log import update_study_log
+from ui.study_mode_select import StudyModeSelect
 
 DATA_PATH = "data/words.json"
 
@@ -29,9 +30,10 @@ def calculate_after_min(cor, inc):
     return after_min
 
 class StudyScreen(tk.Frame):
-    def __init__(self, parent, controller):
+    def __init__(self, parent, controller, mode='eng_to_kor'):
         super().__init__(parent)
         self.controller = controller
+        self.mode = mode
         self.configure(bg="white")        
 
         #공부 시작 시간 기록 
