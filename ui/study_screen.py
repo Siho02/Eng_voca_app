@@ -77,7 +77,23 @@ class StudyScreen(tk.Frame):
                     self.word_data = []
         else:
             self.word_data = []
+    
+    def show_kor_to_eng_question(self):
+        self.clear_subjective_widgets()
 
+        meaning = random.choice(self.quiz_word["meaning"])
+        self.current_answer = self.quiz_word["word"]
+
+        other_words = [e["word"] for e in self.word_data if e["word"] != self.current_answer]
+        wrong_choices = random.sample(other_words, 3) if len(other_words) >= 3 else other_words
+        options = wrong_choices + [self.current_answer]
+        random.shuffle(options)
+
+        self.question_label.config(text=f'"{meaning}" 에 해당하는 영어 단어는?')
+
+        for i, option in enumerate(options):
+            self.option_buttons[i].config(text=option, state="normal")
+        
     def next_question(self):
         self.clear_subjective_widgets()
 
@@ -86,13 +102,15 @@ class StudyScreen(tk.Frame):
 
         # 복습 가능한 단어 필터링
         reviewable_words = [] 
-        
         for entry in self.word_data:
             next_review_str = entry.get('next_review')
             if next_review_str:
-                next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
-                if now >= next_review_dt:
-                    reviewable_words.append(entry)
+                try:
+                    next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
+                    if now >= next_review_dt:
+                        reviewable_words.append(entry)
+                except ValueError:
+                    continue
         
         # 복습할 단어가 없으면 안내
         if len(reviewable_words) == 0:
@@ -100,26 +118,31 @@ class StudyScreen(tk.Frame):
             for btn in self.option_buttons:
                 btn.config(text='', state='disabled')
             return 
-
+        
         #문제 단어 선택
         self.quiz_word = random.choice(reviewable_words)
 
-        #주관식 모드 전환 조건
-        cor = self.quiz_word.get("correct_cnt", 0)
-        inc = self.quiz_word.get("incorrect_cnt", 0)
-        total = cor + inc
-        accuracy = cor / total if total > 0 else 0
+        #퀴즈 모드 설정
+        correct = self.quiz_word.get("correct_cnt", 0)
+        incorrect = self.quiz_word.get("incorrect_cnt", 0)
+        total = correct + incorrect
+        accuracy = correct / total if total > 0 else 0
 
-        #복습횟수(total)이 20 초과이고, accuracy > 0.85 이상이면 주관식으로 전환
-        if total > 20 and accuracy >= 0.85:
+        
+        if self.mode == 'kor_to_eng':
+            self.quiz_word['mode'] = 'kor_to_eng_objective'
+        elif total > 20 and accuracy >=0.85:
             self.quiz_word['mode'] = 'subjective'
         else:
             self.quiz_word['mode'] = 'objective'
         
         if self.quiz_word['mode'] == 'objective':
             self.show_objective_question()
-        else:
+        elif self.quiz_word['mode'] == 'subjective':
             self.show_subjective_question()
+        elif self.quiz_word['mode'] == 'kor_to_eng_objective':
+            self.show_kor_to_eng_question()
+
 
     def show_objective_question(self):
         correct_meaning = random.choice(self.quiz_word['meaning'])

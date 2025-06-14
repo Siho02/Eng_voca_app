@@ -4,7 +4,7 @@ class StudyModeSelect(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
         self.controller = controller
-        self.configure(bg = 'gray')
+        self.configure(bg = 'white')
 
         tk.Label(self, text='어떻게 공부해볼까요?', font = ('Arial',24), bg = "white").pack(pady=20)
 

@@ -250,5 +250,31 @@
         "end": "21:18"
       }
     ]
+  },
+  "2025-06-14": {
+    "studied_word_count": 8,
+    "registered_word_count": 0,
+    "deleted_word_count": 0,
+    "correct_count": 4,
+    "incorrect_count": 0,
+    "study_minutes": 1,
+    "study_sessions": [
+      {
+        "start": "14:47",
+        "end": "14:47"
+      },
+      {
+        "start": "16:39",
+        "end": "16:40"
+      },
+      {
+        "start": "16:40",
+        "end": "16:40"
+      },
+      {
+        "start": "16:44",
+        "end": "16:44"
+      }
+    ]
   }
 }
