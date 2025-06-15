@@ -105,15 +105,25 @@ class RegisterCSVScreen(tk.Frame):
 
                     # 새로운 단어로 추가 
                     new_entry = {
-                        "created_at" : datetime.now().strftime("%Y-%m-%d %H:%M"),
-                        'word' : word,
-                        'meaning': meanings,
+                        "word": word,
+                        "meaning": meanings,
                         "example": example,
-                        "correct_cnt": 0,
-                        "incorrect_cnt": 0,
-                        "last_reviewed": None,
-                        "mode": "objective",
-                        "next_review": (datetime.now() + timedelta(minutes=180)).strftime("%Y-%m-%d %H:%M")  # ✅ 3시간 후로 설정!
+                        "created_at" : datetime.now().strftime("%Y-%m-%d %H:%M"),
+                        "review_stats":{
+                                "eng_to_kor": {
+                                    "correct_cnt" : 0,
+                                    "incorrect_cnt" : 0,
+                                    "last_reviewed" : None,
+                                    "next_review" : (datetime.now() + timedelta(minutes=180)).strftime("%Y-%m-%d %H:%M")
+                                },
+                                "kor_to_eng": {
+                                    "correct_cnt" : 0,
+                                    "incorrect_cnt" : 0,
+                                    "last_reviewed" : None,
+                                    "next_review" :(datetime.now() + timedelta(minutes=180)).strftime("%Y-%m-%d %H:%M")
+                                }
+                            },            
+                        "mode": "objective"
                     }
                     data.append(new_entry)
                     added_count += 1

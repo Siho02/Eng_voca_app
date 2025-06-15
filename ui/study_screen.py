@@ -103,7 +103,10 @@ class StudyScreen(tk.Frame):
         # 복습 가능한 단어 필터링
         reviewable_words = [] 
         for entry in self.word_data:
-            next_review_str = entry.get('next_review')
+            stats = entry.get("review_stats", {})
+            mode_stats = stats.get(self.mode, {})
+            next_review_str = mode_stats.get('next_review')
+            
             if next_review_str:
                 try:
                     next_review_dt = datetime.strptime(next_review_str, '%Y-%m-%d %H:%M')
@@ -143,7 +146,6 @@ class StudyScreen(tk.Frame):
         elif self.quiz_word['mode'] == 'kor_to_eng_objective':
             self.show_kor_to_eng_question()
 
-
     def show_objective_question(self):
         correct_meaning = random.choice(self.quiz_word['meaning'])
         self.current_answer = correct_meaning
@@ -166,19 +168,18 @@ class StudyScreen(tk.Frame):
         for btn in self.option_buttons:
             btn.pack_forget()  # 객관식 버튼 숨김
     
-    
-
     def check_answer(self, selected_index):
         selected_text = self.option_buttons[selected_index].cget("text")
         correct = selected_text == self.current_answer
+        mode_stats = self.quiz_word["review_stats"][self.mode]
 
         if correct: 
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
-            self.quiz_word["correct_cnt"] += 1
+            mode_stats = self.quiz_word["review_stats"][self.mode]
             update_study_log("study", correct=True)
         else:
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
-            self.quiz_word["incorrect_cnt"] += 1
+            mode_stats = self.quiz_word["review_stats"][self.mode]
             update_study_log("study", incorrect=True)
 
         # ✅ 복습한 시간과 다음 복습일 갱신
@@ -195,14 +196,15 @@ class StudyScreen(tk.Frame):
         correct_meanings = [m.replace(" ", "") for m in self.quiz_word["meaning"]]
         
         user_input = user_answer.replace(" ", "")
+        mode_stats = self.quiz_word["review_stats"][self.mode]
 
         if user_input in correct_meanings:
             self.feedback_label.config(text="✅ 정답입니다!", fg="green")
-            self.quiz_word["correct_cnt"] += 1
+            mode_stats["correct_cnt"] += 1
             update_study_log("study", correct=True)
         else:
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {correct_meanings}", fg="red")
-            self.quiz_word["incorrect_cnt"] += 1
+            mode_stats["correct_cnt"] += 1
             update_study_log("study", incorrect=True)
         
         self.update_review_schedule()
@@ -215,12 +217,14 @@ class StudyScreen(tk.Frame):
     
     def update_review_schedule(self):
         now = datetime.now()
-        self.quiz_word["last_reviewed"] = now.strftime("%Y-%m-%d %H:%M")
-        cor = self.quiz_word["correct_cnt"]
-        inc = self.quiz_word["incorrect_cnt"]
+        mode_stats = self.quiz_word['review_stats'][self.mode]
+
+        mode_stats['last_reviewed'] = now.strftime("%Y-%m-%d %H:%M")
+        cor = mode_stats["correct_cnt"]
+        inc = mode_stats["incorrect_cnt"]
         after_min = calculate_after_min(cor, inc)
         next_review_dt = now + timedelta(minutes=after_min)
-        self.quiz_word["next_review"] = next_review_dt.strftime("%Y-%m-%d %H:%M")
+        mode_stats["next_review"] = next_review_dt.strftime("%Y-%m-%d %H:%M")
 
     def clear_subjective_widgets(self):
         if hasattr(self, "entry_answer"):
