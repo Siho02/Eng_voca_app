@@ -181,6 +181,11 @@ class StudyScreen(tk.Frame):
             self.feedback_label.config(text=f"❌ 오답입니다. 정답: {self.current_answer}", fg="red")
             mode_stats = self.quiz_word["review_stats"][self.mode]
             update_study_log("study", incorrect=True)
+            self.update_mistake_log(
+                word=self.quiz_word['word'],
+                meaning = self.quiz_word['meaning'],
+                example = self.quiz_word.get("example", "")
+            )
 
         # ✅ 복습한 시간과 다음 복습일 갱신
         self.update_review_schedule()
@@ -215,6 +220,31 @@ class StudyScreen(tk.Frame):
         self.entry_answer.destroy()
         self.submit_btn.destroy()
     
+    def update_mistake_log(self, word, meaning, example=""):
+        now = datetime.now().strftime("%Y-%m-%d %H:%M")
+        file_path = "data/mistake_log.json"
+        
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except FileNotFoundError:
+            data = {}
+
+        if word not in data:
+            data[word] = {
+                "meaning": meaning,
+                "example": example,
+                "mistake_cnt": 1,
+                "mistake_date": {"1": now}
+            }
+        else:
+            cnt = data[word]["mistake_cnt"] + 1
+            data[word]["mistake_cnt"] = cnt
+            data[word]["mistake_date"][str(cnt)] = now
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
     def update_review_schedule(self):
         now = datetime.now()
         mode_stats = self.quiz_word['review_stats'][self.mode]
@@ -222,6 +252,7 @@ class StudyScreen(tk.Frame):
         mode_stats['last_reviewed'] = now.strftime("%Y-%m-%d %H:%M")
         cor = mode_stats["correct_cnt"]
         inc = mode_stats["incorrect_cnt"]
+
         after_min = calculate_after_min(cor, inc)
         next_review_dt = now + timedelta(minutes=after_min)
         mode_stats["next_review"] = next_review_dt.strftime("%Y-%m-%d %H:%M")
